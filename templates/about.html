@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+
+{% block body %}
+{% csrf_token %}
+<html>
+<body style="background-color:powderblue;">
+    <div margin-top class = "container" >
+    <img src="/media/mihri.jpg" class="rounded float-right" alt="resim" width="250">
+<span style="color:rgb(204, 42, 14)" > <h2>Mihrimah Sarıkaya</h3></span>
+<p>Mihrimah Sarıkaya 2018`den beri Samsunun en köklü spor salonlarından birinde
+    kişisel antrenörlük yapıyor ve aynı zamanda Ondokuz Mayıs üniversitesi
+    Antrenörlük bölümünde 3.sınıf öğrencisi.Mihri antrenörlük hayatına başlamadan
+    öncede Taekwando sporunda çeşitli başarılara imza atmış bir sporcu ama malesef
+    geçirdiği sakatlıklar yüzünden Taekwando yu bırakan mihiri sporu bırakmıyor
+    ve kişisel antrenörlük yaparak geçimini sağlıyor
+</p>
+    </div>
+</body>
+</html>
+
+{% endblock body %}
